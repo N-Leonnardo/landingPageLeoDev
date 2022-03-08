@@ -8,11 +8,36 @@ h2{
     font-weight: 300;
 }
 
-.firstSec{
-    height: 90vh;
-    background-color: rgb(56, 56, 56);
-    color: white;
+input{
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid #1c6ea44b;
+    padding: 10px;
+    width: 100%;
 }
+
+.firstSec{
+    background: #474bff;
+background: -webkit-linear-gradient(74deg, #474bff 0%, #bc48ff 100%);
+background: linear-gradient(74deg, #474bff 0%, #bc48ff 100%);
+color: white;
+    padding-bottom: 20px;
+    height: 90vh;
+}
+
+.elementsTop{
+    justify-content: space-between;
+}
+
+.elementsTop img{
+    border-radius: 59% 40% 39% 55% / 42% 64% 25% 57%;
+    width: 800px;
+    position: absolute;
+    right: 2%;
+    bottom: 40%;
+}
+
+
 
 .logo{
     width: 200px;
@@ -20,7 +45,7 @@ h2{
 }
 
 .slogan{
-    margin-top: 50vh;
+    margin-top: 20vh;
     margin-left: 2%;
     font-size: 48px;
 }
@@ -91,16 +116,31 @@ h2{
 .rendered-form{
     flex-direction: column;
     text-align: center;
-    width: 70%;
+    width: 40%;
     height: 300px;
     background: #FFFFFF;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
 
+.rendered-form h1{
+    font-size: 40pt;
+}
+
 .formb{
     flex-direction: column;
 }
+
+.formb button{
+    color: white;
+    font-weight: 300;
+    font-size: 14pt;
+    padding: 10px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+}
+
 
 /* MEDIA */
 
